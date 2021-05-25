@@ -1,5 +1,3 @@
-# Server Grade
-
 In this project, I implemented a socket based grade server that can handle requests using "threadpool".
 The grade server stores grades and will be used by two kinds of clients:
 1. Student - can only read grade.
