@@ -4,8 +4,8 @@ The grade server stores grades and will be used by two kinds of clients:
 2. Teaching assitant - can read grade, update grade and add a new student to the students' database.
 
 In order to use server, you must have a VM with linux installed.
-You can change the students.txt and assitants.txt files to whatever IDs and password that you want as long as they follow the format: <id> <password>
-The id shall not acceed 10 digits and the password shall not acceed 256 characters.
+You can change the students.txt and assitants.txt files to whatever IDs and password that you want as long as they follow the format: <id> <password>.
+The id shall not acceed 10 digits and the password shall not acceed 256 characters - each id should be unique and not appear in both students.txt and assitants.txt!
 
 In order to start using the server, one shall need to open two terminals.
 On the first terminal we're going to compile the grade_server.c file with the command gcc -g -pthread grade_server.c -o GradeServer.
